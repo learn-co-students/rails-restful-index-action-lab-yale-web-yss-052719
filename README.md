@@ -13,13 +13,13 @@
 
 ## Notes
 
-This is a lab to build /posts
+This is a lab to build /students
 
-draw the correct restful route for a posts index
-have a post model and a posts controller that responds to action index
-Post model with migration
-index action loads post.all
-index view iterates over post.all and prints each post title.
-make sure to mention that all instance variables in a controller action are avaiable to the view, they should know that from sinatra but let's remind them.
+ - draw the correct restful route for a students index
+ - have a student model and a students controller that responds to action index
+ - student model with migration
+ - index action loads student.all
+ - index view iterates over student.all and prints each student name.
+ - make sure to mention that all instance variables in a controller action are avaiable to the view, they should know that from  - sinatra but let's remind them.
 
 avoid generators or scaffolds - they should implement this to spec by hand.
