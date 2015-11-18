@@ -8,6 +8,23 @@
 4. Load instances from ActiveRecord into a controller instance variable
 5. Render a template
 6. Use an instance variable from a controller action in a template
-7. Iterate ove ran ActiveRecord collection in ERB
+7. Iterate over an ActiveRecord collection in ERB
 8. Build a classical index action/view
 
+## RESTful Routes
+
+In this lab you will walk through how to build each element required to render a list of students out in the browser. The RSpec/Capybara tests for this lab can be found in ```spec/features```, to run the tests, run the following command in the terminal ```bundle exec rspec spec/features/```, both tests should be passing to complete the lab.
+
+## Instructions
+
+* Create a route that is mapped to a students' controller index action, the resulting route should be ```/students```
+
+* Create a controller for students and have it inherit from ApplicationController
+
+* Create a Student model file and a create a database migration, adding in ```first_name``` and ```last_name``` columns
+
+* Integrate a controller action in the students' controller for handling the ```index``` action
+
+* Have the new ```index``` action call the Student model and pull in a list of all of the students with ```Student.all``` and store it in an instance variable
+
+* Map an ```index.html.erb``` view file to the student controller and iterate over the list of students returned from the index action in the controller
