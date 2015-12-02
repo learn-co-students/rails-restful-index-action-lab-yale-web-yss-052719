@@ -23,3 +23,5 @@ This is a lab to build /students
  - make sure to mention that all instance variables in a controller action are avaiable to the view, they should know that from  - sinatra but let's remind them.
 
 avoid generators or scaffolds - they should implement this to spec by hand.
+
+<a href='https://learn.co/lessons/rails-restful-index-action-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
