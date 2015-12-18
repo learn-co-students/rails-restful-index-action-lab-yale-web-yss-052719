@@ -13,7 +13,7 @@
 
 ## RESTful Routes
 
-In this lab you will walk through how to build each element required to render a list of students out in the browser. The RSpec/Capybara tests for this lab can be found in ```spec/features```, to run the tests, run the following command in the terminal ```bundle exec rspec spec/features/```, both tests should be passing to complete the lab.
+In this lab you will walk through how to build each element required to render a list of students out in the browser. The RSpec/Capybara tests for this lab can be found in ```spec/features```, both tests should be passing to complete the lab.
 
 ## Instructions
 
