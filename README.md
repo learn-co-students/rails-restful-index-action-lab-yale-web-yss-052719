@@ -1,4 +1,4 @@
-# RESTful Index Action Lab 
+# RESTful Index Action Lab
 
 ## Objectives
 
@@ -8,20 +8,23 @@
 4. Load instances from ActiveRecord into a controller instance variable
 5. Render a template
 6. Use an instance variable from a controller action in a template
-7. Iterate ove ran ActiveRecord collection in ERB
+7. Iterate over an ActiveRecord collection in ERB
 8. Build a classical index action/view
 
-## Notes
+## RESTful Routes
 
-This is a lab to build /students
+In this lab you will walk through how to build each element required to render a list of students out in the browser. The RSpec/Capybara tests for this lab can be found in ```spec/features```, both tests should be passing to complete the lab.
 
- - draw the correct restful route for a students index
- - have a student model and a students controller that responds to action index
- - student model with migration
- - index action loads student.all
- - index view iterates over student.all and prints each student name.
- - make sure to mention that all instance variables in a controller action are avaiable to the view, they should know that from  - sinatra but let's remind them.
+## Instructions
 
-avoid generators or scaffolds - they should implement this to spec by hand.
+* Create a route that is mapped to a students' controller index action, the resulting route should be ```/students```
 
-<a href='https://learn.co/lessons/rails-restful-index-action-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
+* Create a controller for students and have it inherit from ApplicationController
+
+* Create a Student model file and a create a database migration, adding in ```first_name``` and ```last_name``` columns
+
+* Integrate a controller action in the students' controller for handling the ```index``` action
+
+* Have the new ```index``` action call the Student model and pull in a list of all of the students with ```Student.all``` and store it in an instance variable
+
+* Map an ```index.html.erb``` view file to the student controller and iterate over the list of students returned from the index action in the controller
