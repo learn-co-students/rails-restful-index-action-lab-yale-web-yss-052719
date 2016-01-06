@@ -28,3 +28,7 @@ In this lab you will walk through how to build each element required to render a
 * Have the new ```index``` action call the Student model and pull in a list of all of the students with ```Student.all``` and store it in an instance variable
 
 * Map an ```index.html.erb``` view file to the student controller and iterate over the list of students returned from the index action in the controller
+
+## Resources
+
+[Rails Routing from the Outside In](http://edgeguides.rubyonrails.org/routing.html) 
