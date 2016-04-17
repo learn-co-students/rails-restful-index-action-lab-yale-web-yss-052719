@@ -21,8 +21,6 @@ In this lab you will walk through how to build each element required to render a
 
 * Create a controller for students and have it inherit from ApplicationController
 
-* Create a Student model file and a create a database migration, adding in ```first_name``` and ```last_name``` columns
-
 * Integrate a controller action in the students' controller for handling the ```index``` action
 
 * Have the new ```index``` action call the Student model and pull in a list of all of the students with ```Student.all``` and store it in an instance variable
@@ -34,3 +32,5 @@ In this lab you will walk through how to build each element required to render a
 [Rails Routing from the Outside In](http://edgeguides.rubyonrails.org/routing.html) 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-restful-index-action-lab' title='RESTful Index Action Lab'>RESTful Index Action Lab</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-restful-index-action-lab'>RESTful Action Index Lab</a> on Learn.co and start learning to code for free.</p>
