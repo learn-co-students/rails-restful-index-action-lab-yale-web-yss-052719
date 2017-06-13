@@ -13,7 +13,7 @@
 
 ## RESTful Routes
 
-In this lab you will walk through how to build each element required to render a list of students out in the browser. The RSpec/Capybara tests for this lab can be found in ```spec/features```, both tests should be passing to complete the lab.
+In this lab you will walk through how to build each element required to render a list of students out in the browser. The RSpec/Capybara tests for this lab can be found in ```spec/features```. Both tests should be passing to complete the lab.
 
 ## Instructions
 
@@ -31,6 +31,6 @@ In this lab you will walk through how to build each element required to render a
 
 [Rails Routing from the Outside In](http://edgeguides.rubyonrails.org/routing.html) 
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-restful-index-action-lab' title='RESTful Index Action Lab'>RESTful Index Action Lab</a> on Learn.co and start learning to code for free.</p>
+<p class='util--hide'>View <a href='https://learn.co/lessons/rails-restful-index-action-lab'>RESTful Action Index Lab</a> on Learn.co and start learning to code for free.</p>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-restful-index-action-lab'>RESTful Action Index Lab</a> on Learn.co and start learning to code for free.</p>
