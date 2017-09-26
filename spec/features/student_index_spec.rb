@@ -15,6 +15,6 @@ describe 'Multiple students are shown' do
 
     visit "/students"
 
-    expect(page).to have_content(/Daenerys|Lindsey/)
+    expect(page).to have_content(/(?=.*Daenerys)(?=.*Lindsey).*/)
   end
 end
