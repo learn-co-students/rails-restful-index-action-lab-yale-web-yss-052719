@@ -1,3 +1,4 @@
+
 # Created by https://www.gitignore.io/api/node
 
 .DS_Store
@@ -34,3 +35,5 @@ jspm_packages
 tmp/
 log/
 *.db
+*.sqlite3
+Gemfile.lock
