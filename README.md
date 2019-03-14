@@ -49,6 +49,4 @@ be found in `spec/features`. Both tests should be passing to complete the lab.
 
 [Rails Routing from the Outside In](http://edgeguides.rubyonrails.org/routing.html)
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/rails-restful-index-action-lab'>RESTful Action Index Lab</a> on Learn.co and start learning to code for free.</p>
-
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-restful-index-action-lab'>RESTful Action Index Lab</a> on Learn.co and start learning to code for free.</p>
