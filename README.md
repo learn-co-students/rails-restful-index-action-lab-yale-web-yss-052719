@@ -21,10 +21,6 @@ be found in `spec/features`. Both tests should be passing to complete the lab.
 
 - Run `bundle install` from your terminal
 
-- Run: + `rake db:create` + `rake db:migrate` + `rake db:seed`
-
-- Or one-line it if you feel fancy: `rake db:create && rake db:migrate && rake db:seed`
-
 - Create a route that is mapped to a students' controller index action, the
   resulting route should be `/students`
 
